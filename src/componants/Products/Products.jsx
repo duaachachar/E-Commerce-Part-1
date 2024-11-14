@@ -75,7 +75,7 @@ const Products = () => {
         onChange={(e, newValue) => {
           setFilterCategory(newValue);
         }}
-        renderInput={(params) => <TextField {...params} label="Movie" />}
+        renderInput={(params) => <TextField {...params} label="Categories" />}
       />
       {isLoading ? (
         <Box className="text-center mt-5 pt-5">
